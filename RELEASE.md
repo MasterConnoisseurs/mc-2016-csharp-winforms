@@ -82,6 +82,7 @@ This RAR file contains the application's installer and core files. 📦
     * Right-click on the `.rar` file.
     * Select "Extract Here" or "Extract to `mc-2016-csharp-winforms\`" using an archiving tool like WinRAR or 7-Zip. 📂
     * This will create a new folder (e.g., `mc-2016-csharp-winforms`) containing `setup.exe` and an `Application Files` subfolder.
+    * **Note:** Inside the `Application Files` folder, you will find your application's executable, along with the **MySQL Connector/NET (`MySql.Data.dll`)** and its related files. These are crucial libraries that enable your application to communicate with the MySQL Server. 🔗
 
 ---
 
@@ -118,6 +119,15 @@ Finally, run the ClickOnce installer to deploy the application to your system. �
 1.  **Go back to the main extracted folder** (e.g., `mc-2016-csharp-winforms`).
 2.  **Double-click on `setup.exe`**. 🏃‍♂️
 3.  Follow the on-screen prompts to install the MC Laundry Shop application. 📩
+
+---
+
+## 🔑 Default Login Credentials
+
+After installation, use these credentials to log into the application for the first time:
+
+* **Username:** `sa`
+* **Password:** `SecretPassword_00`
 
 ---
 
