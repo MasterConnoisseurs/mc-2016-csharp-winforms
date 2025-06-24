@@ -74,4 +74,26 @@ After installation, use these credentials to log into the application for the fi
         <connectionStrings>
             <add name="MySQLConnection" connectionString="Server=localhost;Port=3306;Database=mc_laundryclean;Uid=root;Pwd=root_password;" providerName="MySql.Data.MySqlClient" />
         </connectionStrings>
-        ```
+```
+
+---
+
+## 🖼️ Gallery
+
+Here are some screenshots of the MC Laundry Shop Application in action:
+
+<p>
+    <img src="https://drive.google.com/uc?export=download&id=1Dq6TssZGP_24fPz3TSY51Uf3aSdWVTZm" alt="system_image_1" width="500" />
+    <img src="https://drive.google.com/uc?export=download&id=1YSNSX_QTr6cjusXa3zAoor-fVxpmBYlt" alt="system_image_2" width="500"/>
+    <img src="https://drive.google.com/uc?export=download&id=1sTNynm5_6UHkjXYX4irWRdjDcX6ZEJqC" alt="system_image_3" width="500" />
+    <img src="https://drive.google.com/uc?export=download&id=1GzqVshQ_Hfx3wKtzw_xLZ1vWEpMKcS0Q" alt="system_image_4" width="500"/>
+    <img src="https://drive.google.com/uc?export=download&id=1j68vFBP6tnpnMw-W6XC9nOrKxBFPPz2L" alt="system_image_5" width="500"/>
+    <img src="https://drive.google.com/uc?export=download&id=1v01_O8K15afpr5Nj6_J-HGwN1oGWkZ_M" alt="system_image_6" width="500"/>
+    <img src="https://drive.google.com/uc?export=download&id=1EfTpfZmiVq18oImmOj9ctOJjeGUZpYN2" alt="system_image_7" width="500"/>
+    <img src="https://drive.google.com/uc?export=download&id=1_XkJn_zDybbhm6Phs6r-PzPjLjjjCl9_" alt="system_image_8" width="500"/>
+    <img src="https://drive.google.com/uc?export=download&id=1KLZEVPA9h84dQK6byxQtQLp_hoN9sJcY" alt="system_image_9" width="500"/>
+    <img src="https://drive.google.com/uc?export=download&id=1oSkAIMlYq4GqHePyeFNG6StyZ4tnnXRu" alt="system_image_10" width="500"/>
+    <img src="https://drive.google.com/uc?export=download&id=1KAlHB-l6oICqHEKf8pziNTmtbJlDLSDa" alt="system_image_11" width="500"/>
+</p>
+
+
