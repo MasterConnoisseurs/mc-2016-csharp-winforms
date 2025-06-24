@@ -18,6 +18,7 @@ packages/
 [Rr]elease/
 [Bb]in/
 [Oo]bj/
+[Pp]ublish/
 *.pdb # Program Database files (debugging symbols)
 *.log # General log files
 *.bak # Backup files
