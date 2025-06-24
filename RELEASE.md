@@ -1,6 +1,6 @@
 # 🧺 MC Laundry Shop Application 🧼
 
-This repository contains the source code and deployment package for the MC Laundry Shop WinForms application. This guide will help you install and run the application on your Windows machine.
+This guide will help you install and run the application on your Windows machine.
 
 ## Download Links
 
@@ -9,14 +9,14 @@ This repository contains the source code and deployment package for the MC Laund
 
 ## Installation Summary
 
-Here's a quick overview of the steps you'll follow:
+Here's a quick overview of the steps you'll follow. Click on any step to jump to its detailed instructions:
 
-* **Step 1:** Install .NET Framework 4.6.2 or Higher
-* **Step 2:** Install MySQL Server 8.0.36 or Higher
-* **Step 3:** Run the Database Script in MySQL
-* **Step 4:** Extract `mc-2016-csharp-winforms.rar`
-* **Step 5:** Edit the Connection String
-* **Step 6:** Run the Application Installer
+* **[Step 1: Install .NET Framework 4.6.2 or Higher](#step-1-install-net-framework-462-or-higher)**
+* **[Step 2: Install MySQL Server 8.0.36 or Higher](#step-2-install-mysql-server-8036-or-higher)**
+* **[Step 3: Run the Database Script in MySQL](#step-3-run-the-database-script-in-mysql)**
+* **[Step 4: Extract mc-2016-csharp-winforms.rar](#step-4-extract-mc-2016-csharp-winformsrar)**
+* **[Step 5: Edit the Connection String](#step-5-edit-the-connection-string)**
+* **[Step 6: Run the Application Installer](#step-6-run-the-application-installer)**
 
 ---
 
@@ -82,7 +82,6 @@ This RAR file contains the application's installer and core files. 📦
     * Right-click on the `.rar` file.
     * Select "Extract Here" or "Extract to `mc-2016-csharp-winforms\`" using an archiving tool like WinRAR or 7-Zip. 📂
     * This will create a new folder (e.g., `mc-2016-csharp-winforms`) containing `setup.exe` and an `Application Files` subfolder.
-    * **Note:** Inside the `Application Files` folder, you will find your application's executable, along with the **MySQL Connector/NET (`MySql.Data.dll`)** and its related files. These are crucial libraries that enable your application to communicate with the MySQL Server. 🔗
 
 ---
 
