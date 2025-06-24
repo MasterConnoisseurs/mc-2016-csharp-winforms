@@ -1,16 +1,31 @@
-# mc-2016-csharp-winforms
-My C# learning project from my second year of college (2016).
-
 # 🧺 MC Laundry Shop Application 🧼
 
-This repository contains the source code and deployment package for the MC Laundry Shop WinForms application. This guide will help you install and run the application on your Windows machine.
+This guide will help you install and run the application on your Windows machine.
+
+## Download Links
+
+* **Database Script:** [Database Script](https://drive.google.com/file/d/1XloNdcnoJ3eb2VBiZbIQIv139yICfCOq/view?usp=sharing) 📄
+* **Application RAR File:** [Application RAR File](https://drive.google.com/file/d/1moU0u8ljFmX52RAH-apJhv2MktUyE8mT/view?usp=sharing) 📦
+
+## Installation Summary
+
+Here's a quick overview of the steps you'll follow:
+
+* **Step 1:** Install .NET Framework 4.6.2 or Higher
+* **Step 2:** Install MySQL Server 8.0.36 or Higher
+* **Step 3:** Run the Database Script in MySQL
+* **Step 4:** Extract `mc-2016-csharp-winforms.rar`
+* **Step 5:** Edit the Connection String
+* **Step 6:** Run the Application Installer
+
+---
 
 ## 🛠️ Prerequisites
 
 Before proceeding with the installation, ensure your system meets the following requirements:
 
 * **Operating System:** Windows 7 or higher (Windows 10/11 recommended) 💻
-* **Internet Connection:** Required for downloading prerequisites if not already installed. 🌐
+* **Internet Connection:** Required for downloading prerequisites and application files. 🌐
 
 ---
 
@@ -50,11 +65,11 @@ The application relies on a MySQL database server to store and manage its data. 
 After MySQL Server is installed and running, you need to set up the specific database and tables required by the MC Laundry Shop application. 📋
 
 1.  **Locate the Database Script:**
-    * Ensure you have the provided database script (e.g., `laundry_shop_database.sql` or similar). This script should be included with the application's distribution package or provided separately. 📄
+    * Download the database script from the link provided above: [Database Script](https://drive.google.com/file/d/1XloNdcnoJ3eb2VBiZbIQIv139yICfCOq/view?usp=sharing) 📄
 2.  **Execute the Script:**
     * Open a MySQL client tool (e.g., MySQL Workbench, or the MySQL Command Line Client, which comes with MySQL Server installation).
     * Log in to your MySQL server using the `root` user and the password you set in **Step 2**. 🔒
-    * Execute your provided database script. This will create the necessary database named `mc_laundryclean` and its tables, as expected by the application. ✨
+    * Execute the downloaded database script. This will create the necessary database named `mc_laundryclean` and its tables, as expected by the application. ✨
 
 ---
 
@@ -62,7 +77,7 @@ After MySQL Server is installed and running, you need to set up the specific dat
 
 This RAR file contains the application's installer and core files. 📦
 
-1.  **Locate the RAR file:** Find the `mc-2016-csharp-winforms.rar` file you have downloaded. 📁
+1.  **Locate the RAR file:** Download the application RAR file from the link provided above: [Application RAR File](https://drive.google.com/file/d/1moU0u8ljFmX52RAH-apJhv2MktUyE8mT/view?usp=sharing) 📁
 2.  **Extract the contents:**
     * Right-click on the `.rar` file.
     * Select "Extract Here" or "Extract to `mc-2016-csharp-winforms\`" using an archiving tool like WinRAR or 7-Zip. 📂
@@ -85,11 +100,11 @@ The application needs to be configured with the correct details to connect to yo
     * Open `MC.LaundryShop.App.exe.config` using Notepad or any text editor.
     * Locate the `<connectionStrings>` section. It will look exactly like this:
 
-    ```xml
-    <connectionStrings>
-        <add name="MySQLConnection" connectionString="Server=localhost;Port=3306;Database=mc_laundryclean;Uid=root;Pwd=root_password;" providerName="MySql.Data.MySqlClient" />
-    </connectionStrings>
-    ```
+        ```xml
+        <connectionStrings>
+            <add name="MySQLConnection" connectionString="Server=localhost;Port=3306;Database=mc_laundryclean;Uid=root;Pwd=root_password;" providerName="MySql.Data.MySqlClient" />
+        </connectionStrings>
+        ```
 4.  **Modify the `connectionString` based on your MySQL `root` user's password:**
     * Change `root_password` to the **actual password** you set for the MySQL `root` user during installation (in **Step 2**). ✏️
     * **If your MySQL Server is on a different computer** on your network (not the same machine where you're installing the app), change `Server=localhost` to its IP address (e.g., `Server=192.168.1.100`) or hostname. Keep `Port=3306` unless you've changed the default MySQL port. 📍
