@@ -68,13 +68,14 @@ After installation, use these credentials to log into the application for the fi
 1. Clone the repo:
    ```bash
    git clone https://github.com/MasterConnoisseurs/mc-2016-csharp-winforms.git
+   ```
 2. Execute Database Script : [Database Script](https://drive.google.com/file/d/1XloNdcnoJ3eb2VBiZbIQIv139yICfCOq/view?usp=sharing) 📄
 3. Update the connection string to match your connection details.
-```xml
-        <connectionStrings>
-            <add name="MySQLConnection" connectionString="Server=localhost;Port=3306;Database=mc_laundryclean;Uid=root;Pwd=root_password;" providerName="MySql.Data.MySqlClient" />
-        </connectionStrings>
-```
+    ```xml
+    <connectionStrings>
+        <add name="MySQLConnection" connectionString="Server=localhost;Port=3306;Database=mc_laundryclean;Uid=root;Pwd=root_password;" providerName="MySql.Data.MySqlClient" />
+    </connectionStrings>
+    ```
 
 ---
 
