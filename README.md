@@ -42,7 +42,7 @@ This repository contains a a WinForms (.NET Framework) project to Automate Simpl
 
 ## 📄 Release Documentation
 
-For detailed release notes and documentation, please refer to our [RELEASE.md](https://github.com/MasterConnoisseurs/mc-2016-csharp-winforms/blob/main/RELEASE.md).
+For detailed release notes and documentation, please refer to our [RELEASE]([https://github.com/MasterConnoisseurs/mc-2016-csharp-winforms/blob/main/RELEASE.md](https://github.com/MasterConnoisseurs/mc-2016-csharp-winforms/releases/tag/v1.0)).
 
 ---
 
